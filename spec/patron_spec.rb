@@ -19,8 +19,8 @@ RSpec.describe Patron do
 
   it 'can have interests' do
     patron_1 = Patron.new("Bob", 20)
-    dss = Exhibit.new({name: "Dead Sea Scrolls", cost: 0})
-    gam = Exhibit.new({name: "Gems and Minerals", cost: 0})
+    dead_sea_scrolls = Exhibit.new({name: "Dead Sea Scrolls", cost: 0})
+    gems_and_minerals = Exhibit.new({name: "Gems and Minerals", cost: 0})
 
     patron_1.add_interest("Dead Sea Scrolls")
     patron_1.add_interest("Gems and Minerals")
