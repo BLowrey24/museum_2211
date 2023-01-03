@@ -21,4 +21,10 @@ class Museum
     end
     reccomend_exhibits
   end
+
+  # def admit(patron)
+  #   partons = []
+  #   @partons = patron
+  # end
+  # stopped here
 end
